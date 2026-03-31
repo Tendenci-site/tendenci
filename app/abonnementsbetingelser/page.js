@@ -15,7 +15,7 @@ export const metadata = {
 const SECTIONS = [
   {
     title: "1. Om Tendenci",
-    body: "Disse betingelser gælder for alle aftaler indgået med Tendenci, CVR-nummer [indsæt CVR når du har det]. Tendenci er et dansk social media bureau der tilbyder ydelser inden for sociale medier, email marketing og hjemmesideudvikling til små og mellemstore virksomheder.",
+    body: "Disse betingelser gælder for alle aftaler indgået med Tendenci, CVR-nummer 46373987. Tendenci er et dansk social media bureau der tilbyder ydelser inden for sociale medier, email marketing og hjemmesideudvikling til små og mellemstore virksomheder.",
   },
   {
     title: "2. Abonnement og betaling",

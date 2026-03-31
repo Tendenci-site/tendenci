@@ -591,7 +591,7 @@ export default function Home() {
             className="pt-6 flex flex-col md:flex-row items-center justify-between gap-3"
           >
             <p style={{ color: "#f5f2ed", opacity: 0.3 }} className="text-xs">
-              © 2025 Tendenci. Alle rettigheder forbeholdes.
+              © 2025 Tendenci. Alle rettigheder forbeholdes. · CVR 46373987
             </p>
             <div className="flex items-center gap-5">
               <a
