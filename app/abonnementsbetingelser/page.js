@@ -79,7 +79,7 @@ export default function Abonnementsbetingelser() {
             Abonnementsbetingelser
           </h1>
           <p style={{ color: "#ffffff", opacity: 0.45, fontSize: "0.875rem" }}>
-            Senest opdateret: April 2025
+            Senest opdateret: Marts 2026
           </p>
         </div>
       </div>
@@ -101,7 +101,7 @@ export default function Abonnementsbetingelser() {
         ))}
 
         <p style={{ color: "#0f1e2e", opacity: 0.35, fontSize: "0.8rem", textAlign: "center", paddingBottom: "8px" }}>
-          Disse betingelser er gældende fra april 2025.
+          Disse betingelser er gældende fra marts 2026.
         </p>
       </div>
 
