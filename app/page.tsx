@@ -37,6 +37,7 @@ const SERVICES = [
       "Vi bygger og vedligeholder din hjemmeside - professionel, hurtig og optimeret til at konvertere besøgende til kunder.",
     dark: false,
     emoji: "🌐",
+    href: "/ydelser/hjemmeside",
   },
 ];
 
