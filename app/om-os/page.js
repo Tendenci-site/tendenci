@@ -130,7 +130,7 @@ export default function OmOs() {
           </div>
 
           <p style={{ color: "#ffffff", opacity: 0.3, fontSize: "0.75rem", marginTop: "1.75rem" }}>
-            Kilder: DI, Danmarks Statistik, Kepios 2024-2025
+            Kilder: BrightEdge Research (68%), Salesforce State of the Connected Customer 2024 (49%), Internet Live Stats (3,5 mia.)
           </p>
         </div>
       </section>

@@ -75,6 +75,9 @@ export default function EmailMarketingPage() {
               <div className="text-sm text-[#1a2f47] leading-snug">{s.label}</div>
             </div>
           ))}
+          <p className="text-[#1a2f47] text-xs mt-8 opacity-60 col-span-2 md:col-span-4">
+            Kilder: Litmus State of Email 2023 (4.200% ROI), McKinsey & Company (3×), Statista 2024 (4 mia. brugere), DMA / Litmus (42 kr. pr. investeret krone)
+          </p>
         </div>
       </section>
 

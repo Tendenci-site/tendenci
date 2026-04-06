@@ -79,6 +79,9 @@ export default function PaidAdsPage() {
               <div className="text-sm text-[#1a2f47] leading-snug">{s.label}</div>
             </div>
           ))}
+          <p className="text-[#1a2f47] text-xs mt-8 opacity-60 col-span-2 md:col-span-4">
+            Kilder: Meta Business Insights (3,8× ROAS), WordStream Industry Benchmarks (200%), interne estimater (48t, 0 kr.)
+          </p>
         </div>
       </section>
 

@@ -75,6 +75,9 @@ export default function HjemmesidePage() {
               <div className="text-sm text-[#1a2f47] leading-snug">{s.label}</div>
             </div>
           ))}
+          <p className="text-[#1a2f47] text-xs mt-8 opacity-60 col-span-2 md:col-span-4">
+            Kilder: Stanford Web Credibility Research (75%), Google/Think with Google (3 sek.), Vercel/Next.js benchmarks (hastighed), internt (kodeejerskab)
+          </p>
         </div>
       </section>
 
