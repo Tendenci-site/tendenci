@@ -9,38 +9,38 @@ const NAV_LINKS = [
 
 const SERVICES = [
   {
-    title: "Contentstrategi",
+    title: "Paid Ads",
     description:
-      "Vi lægger en klar plan for, hvad I skal kommunikere, til hvem og hvorfor.",
+      "Vi opsætter og optimerer annoncer på Meta og Google der skaffer kunder — ikke bare klik og visninger.",
     dark: true,
-    emoji: "📋",
+    emoji: "🎯",
   },
   {
-    title: "Løbende indholdsproduktion",
-    description: "Vi producerer og publicerer indhold på vegne af jer.",
+    title: "SEO & GEO",
+    description: "Vi sørger for at du bliver fundet — på Google og i AI-svar fra ChatGPT og Perplexity.",
     dark: false,
-    emoji: "✍️",
-  },
-  {
-    title: "Performance-opfølgning",
-    description:
-      "Vi analyserer løbende hvad der virker og justerer baseret på data.",
-    dark: false,
-    emoji: "📊",
+    emoji: "🔍",
   },
   {
     title: "Email Marketing",
     description:
-      "Vi opsætter og driver din email markedsføring – fra nyhedsbrev til automatiserede flows der sælger mens du sover.",
+      "Vi opsætter og driver din email markedsføring — fra nyhedsbrev til automatiserede flows der sælger mens du sover.",
     dark: false,
     emoji: "📧",
+  },
+  {
+    title: "Hjemmeside",
+    description:
+      "Vi bygger og vedligeholder din hjemmeside — professionel, hurtig og optimeret til at konvertere besøgende til kunder.",
+    dark: false,
+    emoji: "🌐",
   },
 ];
 
 const STEPS = [
   { number: "01", title: "Indsigtssamtale", desc: "Vi starter med en gratis samtale hvor vi lærer din virksomhed, målgruppe og mål at kende ordentligt." },
-  { number: "02", title: "Strategi & plan", desc: "Vi udvikler en enkel contentstrategi med klare budskaber og en fast kadence der passer til din virksomhed." },
-  { number: "03", title: "Produktion & publicering", desc: "Vi producerer og publicerer alt indhold på dine vegne. Du godkender, men behøver ikke bruge din tid på det." },
+  { number: "02", title: "Strategi & kanalvalg", desc: "Vi vælger de kanaler der giver mest igen for netop din virksomhed — og lægger en klar plan med målbare mål." },
+  { number: "03", title: "Opsætning & eksekvering", desc: "Vi sætter det hele op og eksekverer. Du godkender retningen, vi klarer resten." },
   { number: "04", title: "Opfølgning & optimering", desc: "Månedlig gennemgang af resultater og løbende justering af indsatsen baseret på data og konkrete erfaringer." },
 ];
 
@@ -92,19 +92,18 @@ export default function Home() {
               }}
               className="text-5xl md:text-7xl font-normal max-w-3xl mb-8"
             >
-              Du er god til din forretning. Vi er gode til sociale medier.
+              Du er god til din forretning. Vi er gode til at skaffe dig kunder.
             </h1>
 
             <p
               style={{ color: "#ffffff" }}
               className="text-lg md:text-xl max-w-2xl leading-relaxed opacity-80 mb-6"
             >
-              Sociale medier ændrer sig hele tiden. Vi holder øje med tendenserne –
-              så du ikke behøver.
+              Paid ads, SEO og email marketing der virker. Ingen likes uden salg.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 mb-10">
-              {["Algoritmeændringer", "Nye platforme", "Hvad der virker lige nu"].map((item) => (
+              {["Paid Ads", "SEO & GEO", "Email Marketing"].map((item) => (
                 <span key={item} style={{ color: "#ffffff" }} className="flex items-center gap-2 text-sm opacity-70">
                   <span style={{ color: "#c8f04a", fontSize: "1.1rem" }}>●</span>
                   {item}
@@ -159,28 +158,28 @@ export default function Home() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-12">
             {[
               {
-                title: "Profil-gennemgang",
-                desc: "Vi kigger på om dine profiler på Facebook, Instagram og TikTok er sat korrekt op og signalerer troværdighed.",
+                title: "Synlighedsanalyse",
+                desc: "Finder dine kunder dig på Google når de søger efter det du tilbyder? Vi tjekker det.",
               },
               {
-                title: "Indholdsanalyse",
-                desc: "Vi vurderer om dit nuværende indhold taler til din målgruppe – eller om det forsvinder i mængden.",
+                title: "Annonce-potentiale",
+                desc: "Vi vurderer hvad paid ads realistisk ville koste og give tilbage for netop din virksomhed.",
               },
               {
                 title: "Konkurrentblik",
-                desc: "Vi ser på hvad dine konkurrenter gør på sociale medier og hvor du har mulighed for at skille dig ud.",
+                desc: "Vi ser på hvad dine konkurrenter gør digitalt — og hvor du har mulighed for at komme foran dem.",
               },
               {
-                title: "Målgruppecheck",
-                desc: "Vi vurderer om din kommunikation rammer de rigtige mennesker med det rigtige budskab.",
+                title: "Email-setup",
+                desc: "Har I et nyhedsbrev? Vi vurderer om I mister kunder der aldrig vender tilbage — og hvad der skal til.",
               },
               {
-                title: "Synlighedsvurdering",
-                desc: "Vi undersøger om du er synlig der hvor dine potentielle kunder faktisk befinder sig.",
+                title: "GEO-analyse",
+                desc: "Bliver din virksomhed nævnt når folk spørger ChatGPT eller Google AI? Vi tjekker din position i AI-søgninger.",
               },
               {
                 title: "Konkrete anbefalinger",
-                desc: "Du får 3-5 specifikke ting du kan gøre med det samme for at forbedre din online tilstedeværelse.",
+                desc: "Du får 3-5 prioriterede handlinger med konkret effekt — ikke generiske råd, men præcis hvad din virksomhed mangler.",
               },
             ].map((item) => (
               <div
@@ -352,7 +351,7 @@ export default function Home() {
           </div>
 
           <p style={{ color: "#0f1e2e", fontWeight: 800, fontSize: "1.15rem", textAlign: "center", marginBottom: "2rem" }}>
-            Sociale medier skaber synlighed. Email skaber salg. Vi hjælper dig med begge dele.
+            Paid ads skaber kunder. SEO skaber synlighed. Email skaber loyalitet. Vi hjælper dig med det hele.
           </p>
 
           <div style={{ textAlign: "center" }}>
@@ -381,9 +380,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             {[
-              { emoji: "🌐", title: "Hjemmeside", desc: "Vi bygger og vedligeholder din hjemmeside – professionel, hurtig og optimeret til at konvertere besøgende til kunder." },
-              { emoji: "📱", title: "Sociale medier", desc: "Vi producerer og publicerer indhold på dine platforme – med en klar strategi og fokus på resultater." },
-              { emoji: "📧", title: "Email Marketing", desc: "Vi opsætter og driver din email markedsføring – og sikrer at dine kunder kommer tilbage igen og igen." },
+              { emoji: "🎯", title: "Paid Ads", desc: "Vi sætter annoncer op på Meta og Google der skaffer kunder — og optimerer løbende så pengene arbejder hårdest muligt." },
+              { emoji: "🔍", title: "SEO & GEO", desc: "Bliv fundet på Google og i AI-søgninger. Vi sørger for at kunderne finder dig — ikke konkurrenten." },
+              { emoji: "📧", title: "Email Marketing", desc: "Din liste er din mest værdifulde kanal. Vi bygger den og sørger for at den sælger." },
+              { emoji: "🌐", title: "Hjemmeside", desc: "Professionel, hurtig og bygget til at konvertere — ikke bare til at se godt ud." },
             ].map((item) => (
               <div
                 key={item.title}
@@ -504,15 +504,13 @@ export default function Home() {
             }}
             className="text-4xl md:text-6xl font-normal max-w-2xl mb-10"
           >
-            Klar til sociale medier der virker?
+            Klar til marketing der rent faktisk skaber kunder?
           </h2>
           <p
             style={{ color: "#f5f2ed", opacity: 0.65 }}
             className="text-lg max-w-xl mb-10 leading-relaxed"
           >
-            Få en gratis og uforpligtende analyse af din virksomhed. Vi
-            gennemgår din online tilstedeværelse og fortæller ærligt hvad der
-            skal til.
+            Få en gratis og uforpligtende analyse af din virksomhed. Vi gennemgår din digitale tilstedeværelse og fortæller ærligt hvad der mangler — og hvad det vil give.
           </p>
           <a
             href="/analyse"

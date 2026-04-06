@@ -76,7 +76,7 @@ export default function Pakker() {
               <p style={{ color: "#0f1e2e", opacity: 0.35, fontSize: "0.72rem" }}>Opstartstilbud · Gælder de første 3 måneder</p>
             </div>
             <ul style={{ display: "flex", flexDirection: "column", gap: "10px", flex: 1 }}>
-              {["Contentstrategi", "Løbende indholdsproduktion", "Performance-opfølgning", "TikTok optimering", "Månedlig rapport"].map((f) => (
+              {["Paid Ads opsætning (Meta eller Google)", "Løbende annonce-optimering", "Email marketing (opsætning + 1 flow)", "Månedlig rapport med konkrete tal", "Bi-månedlig opfølgning"].map((f) => (
                 <li key={f} style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "0.875rem", color: "#0f1e2e" }}>
                   {CHECK(false)}
                   {f}
@@ -107,7 +107,7 @@ export default function Pakker() {
               <p style={{ color: "#ffffff", opacity: 0.3, fontSize: "0.72rem" }}>Opstartstilbud · Gælder de første 3 måneder</p>
             </div>
             <ul style={{ display: "flex", flexDirection: "column", gap: "10px", flex: 1 }}>
-              {["Alt i Basis", "Email marketing opsætning", "Løbende email produktion", "Hjemmeside bygning og vedligehold", "Bi-ugentlig opfølgning", "Prioriteret support"].map((f) => (
+              {["Alt i Basis", "SEO & GEO optimering", "Løbende email produktion og automatisering", "Hjemmeside bygning og vedligehold", "Bi-ugentlig opfølgning", "Prioriteret support"].map((f) => (
                 <li key={f} style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "0.875rem", color: "#ffffff" }}>
                   {CHECK(true)}
                   {f}
