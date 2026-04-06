@@ -515,7 +515,7 @@ export default function Home() {
             skal til.
           </p>
           <a
-            href="mailto:hejtendenci@gmail.com"
+            href="/analyse"
             style={{
               backgroundColor: "#c8f04a",
               color: "#0f1e2e",
