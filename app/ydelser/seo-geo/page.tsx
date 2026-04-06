@@ -10,6 +10,19 @@ export default function SeoGeoPage() {
   return (
     <main className="bg-white text-[#0f1e2e]">
 
+      {/* Top bar */}
+      <div style={{ backgroundColor: "#f5f2ed", borderBottom: "1px solid rgba(15,30,46,0.1)" }} className="sticky top-0 z-50">
+        <div className="max-w-5xl mx-auto px-6 h-16 flex items-center">
+          <Link
+            href="/"
+            style={{ color: "#0f1e2e", borderRadius: "100px", border: "2px solid rgba(15,30,46,0.2)" }}
+            className="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold hover:opacity-70 transition-opacity"
+          >
+            ← Tilbage til forsiden
+          </Link>
+        </div>
+      </div>
+
       {/* ── HERO ── */}
       <section className="bg-[#0f1e2e] text-white px-6 py-24 text-center">
         <span className="inline-block bg-[#c8f04a] text-[#0f1e2e] text-xs font-semibold px-3 py-1 rounded-full mb-6 uppercase tracking-widest">
