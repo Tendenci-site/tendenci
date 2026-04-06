@@ -74,7 +74,7 @@ export default function Cookiepolitik() {
             </div>
             <p style={{ fontWeight: 700, color: "#0f1e2e" }} className="text-sm">Analysecookies (valgfrie)</p>
             <p style={{ color: "#0f1e2e", opacity: 0.65, lineHeight: 1.7 }} className="text-sm">
-              Vi bruger analytiske cookies til at forstå hvordan besøgende bruger vores hjemmeside — f.eks. hvilke sider der besøges, og hvor længe. Disse data hjælper os med at forbedre indholdet og brugeroplevelsen. Analytiske cookies sættes kun hvis du accepterer alle cookies.
+              Vi bruger analytiske cookies til at forstå hvordan besøgende bruger vores hjemmeside - f.eks. hvilke sider der besøges, og hvor længe. Disse data hjælper os med at forbedre indholdet og brugeroplevelsen. Analytiske cookies sættes kun hvis du accepterer alle cookies.
             </p>
             <p style={{ color: "#0f1e2e", opacity: 0.45 }} className="text-xs">Kræver samtykke · Du kan til enhver tid trække dit samtykke tilbage</p>
           </div>

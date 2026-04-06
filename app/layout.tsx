@@ -12,7 +12,7 @@ const nunito = Nunito({
 export const metadata: Metadata = {
   title: "Tendenci | Digital Marketing Bureau",
   description:
-    "Vi hjælper SMV'er med paid ads, SEO og email marketing — det der rent faktisk skaber kunder. Ingen likes uden salg.",
+    "Vi hjælper SMV'er med paid ads, SEO og email marketing - det der rent faktisk skaber kunder. Ingen likes uden salg.",
   icons: {
     icon: "/Tendenci Logo (6).png",
   },

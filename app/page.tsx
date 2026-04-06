@@ -11,27 +11,28 @@ const SERVICES = [
   {
     title: "Paid Ads",
     description:
-      "Vi opsætter og optimerer annoncer på Meta og Google der skaffer kunder — ikke bare klik og visninger.",
+      "Vi opsætter og optimerer annoncer på Meta og Google der skaffer kunder - ikke bare klik og visninger.",
     dark: true,
     emoji: "🎯",
   },
   {
     title: "SEO & GEO",
-    description: "Vi sørger for at du bliver fundet — på Google og i AI-svar fra ChatGPT og Perplexity.",
+    description: "Vi sørger for at du bliver fundet - på Google og i AI-svar fra ChatGPT og Perplexity.",
     dark: false,
     emoji: "🔍",
+    href: "/ydelser/seo-geo",
   },
   {
     title: "Email Marketing",
     description:
-      "Vi opsætter og driver din email markedsføring — fra nyhedsbrev til automatiserede flows der sælger mens du sover.",
+      "Vi opsætter og driver din email markedsføring - fra nyhedsbrev til automatiserede flows der sælger mens du sover.",
     dark: false,
     emoji: "📧",
   },
   {
     title: "Hjemmeside",
     description:
-      "Vi bygger og vedligeholder din hjemmeside — professionel, hurtig og optimeret til at konvertere besøgende til kunder.",
+      "Vi bygger og vedligeholder din hjemmeside - professionel, hurtig og optimeret til at konvertere besøgende til kunder.",
     dark: false,
     emoji: "🌐",
   },
@@ -39,7 +40,7 @@ const SERVICES = [
 
 const STEPS = [
   { number: "01", title: "Indsigtssamtale", desc: "Vi starter med en gratis samtale hvor vi lærer din virksomhed, målgruppe og mål at kende ordentligt." },
-  { number: "02", title: "Strategi & kanalvalg", desc: "Vi vælger de kanaler der giver mest igen for netop din virksomhed — og lægger en klar plan med målbare mål." },
+  { number: "02", title: "Strategi & kanalvalg", desc: "Vi vælger de kanaler der giver mest igen for netop din virksomhed - og lægger en klar plan med målbare mål." },
   { number: "03", title: "Opsætning & eksekvering", desc: "Vi sætter det hele op og eksekverer. Du godkender retningen, vi klarer resten." },
   { number: "04", title: "Opfølgning & optimering", desc: "Månedlig gennemgang af resultater og løbende justering af indsatsen baseret på data og konkrete erfaringer." },
 ];
@@ -167,11 +168,11 @@ export default function Home() {
               },
               {
                 title: "Konkurrentblik",
-                desc: "Vi ser på hvad dine konkurrenter gør digitalt — og hvor du har mulighed for at komme foran dem.",
+                desc: "Vi ser på hvad dine konkurrenter gør digitalt - og hvor du har mulighed for at komme foran dem.",
               },
               {
                 title: "Email-setup",
-                desc: "Har I et nyhedsbrev? Vi vurderer om I mister kunder der aldrig vender tilbage — og hvad der skal til.",
+                desc: "Har I et nyhedsbrev? Vi vurderer om I mister kunder der aldrig vender tilbage - og hvad der skal til.",
               },
               {
                 title: "GEO-analyse",
@@ -179,7 +180,7 @@ export default function Home() {
               },
               {
                 title: "Konkrete anbefalinger",
-                desc: "Du får 3-5 prioriterede handlinger med konkret effekt — ikke generiske råd, men præcis hvad din virksomhed mangler.",
+                desc: "Du får 3-5 prioriterede handlinger med konkret effekt - ikke generiske råd, men præcis hvad din virksomhed mangler.",
               },
             ].map((item) => (
               <div
@@ -307,6 +308,22 @@ export default function Home() {
                   Læs mere →
                 </a>
               )}
+              {"href" in s && s.href && (
+                <a
+                  href={s.href}
+                  style={{
+                    color: s.dark ? "#c8f04a" : "#0f1e2e",
+                    fontSize: "0.8rem",
+                    fontWeight: 700,
+                    marginTop: "auto",
+                    textDecoration: "none",
+                    opacity: 0.7,
+                  }}
+                  className="hover:opacity-100 transition-opacity"
+                >
+                  Læs mere →
+                </a>
+              )}
             </div>
           ))}
         </div>
@@ -380,10 +397,10 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
             {[
-              { emoji: "🎯", title: "Paid Ads", desc: "Vi sætter annoncer op på Meta og Google der skaffer kunder — og optimerer løbende så pengene arbejder hårdest muligt." },
-              { emoji: "🔍", title: "SEO & GEO", desc: "Bliv fundet på Google og i AI-søgninger. Vi sørger for at kunderne finder dig — ikke konkurrenten." },
+              { emoji: "🎯", title: "Paid Ads", desc: "Vi sætter annoncer op på Meta og Google der skaffer kunder - og optimerer løbende så pengene arbejder hårdest muligt." },
+              { emoji: "🔍", title: "SEO & GEO", desc: "Bliv fundet på Google og i AI-søgninger. Vi sørger for at kunderne finder dig - ikke konkurrenten." },
               { emoji: "📧", title: "Email Marketing", desc: "Din liste er din mest værdifulde kanal. Vi bygger den og sørger for at den sælger." },
-              { emoji: "🌐", title: "Hjemmeside", desc: "Professionel, hurtig og bygget til at konvertere — ikke bare til at se godt ud." },
+              { emoji: "🌐", title: "Hjemmeside", desc: "Professionel, hurtig og bygget til at konvertere - ikke bare til at se godt ud." },
             ].map((item) => (
               <div
                 key={item.title}
@@ -510,7 +527,7 @@ export default function Home() {
             style={{ color: "#f5f2ed", opacity: 0.65 }}
             className="text-lg max-w-xl mb-10 leading-relaxed"
           >
-            Få en gratis og uforpligtende analyse af din virksomhed. Vi gennemgår din digitale tilstedeværelse og fortæller ærligt hvad der mangler — og hvad det vil give.
+            Få en gratis og uforpligtende analyse af din virksomhed. Vi gennemgår din digitale tilstedeværelse og fortæller ærligt hvad der mangler - og hvad det vil give.
           </p>
           <a
             href="/analyse"
