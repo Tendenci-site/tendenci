@@ -37,13 +37,6 @@ export default function Pakker() {
         </div>
       </div>
 
-      {/* Opstartstilbud banner */}
-      <div style={{ backgroundColor: "#c8f04a" }} className="py-3 px-6">
-        <p style={{ color: "#0f1e2e", fontWeight: 700, fontSize: "0.9rem", textAlign: "center" }}>
-          🎉 Opstartstilbud – De første 3 måneder til nedsat pris. Ingen binding, opsig når som helst.
-        </p>
-      </div>
-
       {/* Hero */}
       <div style={{ backgroundColor: "#0f1e2e" }} className="py-16">
         <div className="max-w-6xl mx-auto px-6">
@@ -65,15 +58,6 @@ export default function Pakker() {
             <div>
               <p style={{ color: "#0f1e2e", fontWeight: 800, fontSize: "1.4rem" }}>Basis</p>
               <p style={{ color: "#0f1e2e", opacity: 0.5, fontSize: "0.875rem", marginTop: "4px" }}>Kom godt i gang</p>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
-              <p style={{ color: "#0f1e2e", opacity: 0.4, fontSize: "0.875rem", textDecoration: "line-through" }}>3.500 kr./md.</p>
-              <p style={{ color: "#0f1e2e", fontWeight: 800, fontSize: "1.75rem", lineHeight: 1 }}>1.995 kr./md.</p>
-              <div style={{ display: "flex", alignItems: "center", gap: "8px", marginTop: "4px" }}>
-                <span style={{ backgroundColor: "#c8f04a", color: "#0f1e2e", borderRadius: "100px", fontSize: "0.7rem", fontWeight: 700, padding: "3px 10px" }}>Spar 1.505 kr./md.</span>
-              </div>
-              <p style={{ color: "#0f1e2e", opacity: 0.4, fontSize: "0.75rem", marginTop: "2px" }}>ekskl. moms</p>
-              <p style={{ color: "#0f1e2e", opacity: 0.35, fontSize: "0.72rem" }}>Opstartstilbud · Gælder de første 3 måneder</p>
             </div>
             <ul style={{ display: "flex", flexDirection: "column", gap: "10px", flex: 1 }}>
               {["Paid Ads opsætning (Meta eller Google)", "Løbende annonce-optimering", "Email marketing (opsætning + 1 flow)", "Månedlig rapport med konkrete tal", "Bi-månedlig opfølgning"].map((f) => (
@@ -97,15 +81,6 @@ export default function Pakker() {
               <p style={{ color: "#ffffff", fontWeight: 800, fontSize: "1.4rem" }}>Pro</p>
               <p style={{ color: "#ffffff", opacity: 0.5, fontSize: "0.875rem", marginTop: "4px" }}>Din komplette digitale afdeling</p>
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
-              <p style={{ color: "#ffffff", opacity: 0.4, fontSize: "0.875rem", textDecoration: "line-through" }}>6.500 kr./md.</p>
-              <p style={{ color: "#c8f04a", fontWeight: 800, fontSize: "1.75rem", lineHeight: 1 }}>3.995 kr./md.</p>
-              <div style={{ display: "flex", alignItems: "center", gap: "8px", marginTop: "4px" }}>
-                <span style={{ backgroundColor: "rgba(200,240,74,0.15)", color: "#c8f04a", borderRadius: "100px", fontSize: "0.7rem", fontWeight: 700, padding: "3px 10px" }}>Spar 2.505 kr./md.</span>
-              </div>
-              <p style={{ color: "#ffffff", opacity: 0.4, fontSize: "0.75rem", marginTop: "2px" }}>ekskl. moms</p>
-              <p style={{ color: "#ffffff", opacity: 0.3, fontSize: "0.72rem" }}>Opstartstilbud · Gælder de første 3 måneder</p>
-            </div>
             <ul style={{ display: "flex", flexDirection: "column", gap: "10px", flex: 1 }}>
               {["Alt i Basis", "SEO & GEO optimering", "Løbende email produktion og automatisering", "Hjemmeside bygning og vedligehold", "Bi-ugentlig opfølgning", "Prioriteret support"].map((f) => (
                 <li key={f} style={{ display: "flex", alignItems: "center", gap: "10px", fontSize: "0.875rem", color: "#ffffff" }}>
@@ -124,12 +99,6 @@ export default function Pakker() {
             <div>
               <p style={{ color: "#0f1e2e", fontWeight: 800, fontSize: "1.4rem" }}>Skræddersyet</p>
               <p style={{ color: "#0f1e2e", opacity: 0.5, fontSize: "0.875rem", marginTop: "4px" }}>Præcis det du har brug for</p>
-            </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "4px" }}>
-              <p style={{ color: "#0f1e2e", opacity: 0.4, fontSize: "0.875rem", textDecoration: "line-through" }}>Fra 2.500 kr./md.</p>
-              <p style={{ color: "#0f1e2e", fontWeight: 800, fontSize: "1.75rem", lineHeight: 1 }}>Fra 1.000 kr./md.</p>
-              <p style={{ color: "#0f1e2e", opacity: 0.4, fontSize: "0.75rem", marginTop: "2px" }}>ekskl. moms · tilpasses dit behov</p>
-              <p style={{ color: "#0f1e2e", opacity: 0.35, fontSize: "0.72rem" }}>Opstartstilbud · Gælder de første 3 måneder</p>
             </div>
             <p style={{ color: "#0f1e2e", opacity: 0.65, fontSize: "0.875rem", lineHeight: 1.75 }}>
               Har du specifikke behov der ikke passer ind i vores standardpakker? Vi sammensætter en løsning der passer præcis til din virksomhed og dit budget.
@@ -152,9 +121,6 @@ export default function Pakker() {
         <div style={{ display: "flex", flexDirection: "column", gap: "8px", textAlign: "center" }}>
           <p style={{ color: "#0f1e2e", opacity: 0.45, fontSize: "0.85rem" }}>
             Alle pakker starter med en gratis analyse af din virksomhed. Ingen binding, ingen skjulte gebyrer.
-          </p>
-          <p style={{ color: "#0f1e2e", opacity: 0.35, fontSize: "0.8rem" }}>
-            Efter de første 3 måneder fortsætter du til normalpris eller opsiger uden binding. Ingen skjulte gebyrer.
           </p>
           <a
             href="/abonnementsbetingelser"
