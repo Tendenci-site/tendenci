@@ -295,21 +295,6 @@ export default function Home() {
               >
                 {s.description}
               </p>
-              {s.title === "Email Marketing" && (
-                <a
-                  href="#email-marketing"
-                  style={{
-                    color: "#c8f04a",
-                    fontSize: "0.8rem",
-                    fontWeight: 700,
-                    marginTop: "auto",
-                    textDecoration: "none",
-                  }}
-                  className="hover:opacity-70 transition-opacity"
-                >
-                  Læs mere →
-                </a>
-              )}
               {"href" in s && s.href && (
                 <a
                   href={s.href}
