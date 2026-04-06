@@ -582,6 +582,20 @@ export default function Home() {
               <p style={{ color: "#f5f2ed", opacity: 0.45, fontSize: "0.85rem", lineHeight: 1.6 }}>
                 Vi svarer inden for 24 timer på hverdage
               </p>
+              <a
+                href="https://www.instagram.com/tendenciagency/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#f5f2ed", opacity: 0.6, fontSize: "0.9rem", display: "inline-flex", alignItems: "center", gap: "8px" }}
+                className="hover:opacity-100 transition-opacity"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+                  <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                  <circle cx="12" cy="12" r="4"/>
+                  <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+                </svg>
+                @tendenciagency
+              </a>
             </div>
           </div>
 
