@@ -82,7 +82,7 @@ export default function Home() {
               }}
               className="inline-block px-4 py-1.5 text-xs font-semibold tracking-wide uppercase mb-8"
             >
-              Få flere kunder gennem sociale medier
+              Få flere kunder gennem paid ads, SEO & email
             </span>
 
             <h1

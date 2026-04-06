@@ -15,10 +15,10 @@ export const metadata = {
 };
 
 const STATS = [
-  { value: "90%", label: "af danskerne er aktive på sociale medier" },
-  { value: "61%", label: "af danskerne bruger Facebook dagligt" },
-  { value: "40%", label: "af danske forbrugere følger virksomheder på sociale medier" },
-  { value: "5,24 mia.", label: "mennesker bruger sociale medier på verdensplan" },
+  { value: "68%", label: "af alle online oplevelser starter med en søgning" },
+  { value: "49%", label: "af forbrugere bruger AI til at finde virksomheder" },
+  { value: "3,5 mia.", label: "Google-søgninger foretages hver eneste dag" },
+  { value: "0%", label: "af dine konkurrenter har styr på GEO endnu" },
 ];
 
 const CARDS = [
@@ -107,7 +107,7 @@ export default function OmOs() {
       <section style={{ backgroundColor: "#0f1e2e" }} className="py-20">
         <div className="max-w-5xl mx-auto px-6">
           <h2 style={{ color: "#ffffff", fontWeight: 800, fontSize: "2rem", marginBottom: "0.75rem" }}>
-            Derfor er sociale medier ikke til at ignorere
+            Derfor er digital synlighed ikke til at ignorere
           </h2>
           <p style={{ color: "#ffffff", opacity: 0.5, marginBottom: "3rem", fontSize: "1rem" }}>
             Tallene taler for sig selv

@@ -63,10 +63,10 @@ export default function Analyse() {
             style={{ color: "#ffffff", fontFamily: "var(--font-nunito)", fontSize: "2.75rem", lineHeight: 1.2, fontWeight: 800 }}
             className="mb-4"
           >
-            Fedt at du er klar til at optimere din SoMe indsats!
+            Fedt at du er klar til at blive fundet af flere kunder!
           </h1>
           <p style={{ color: "#ffffff", opacity: 0.75 }} className="text-lg">
-            Sådan foregår det – det er nemmere end du tror.
+            Sådan foregår det – vi klarer det hele for dig.
           </p>
         </div>
       </div>
