@@ -14,6 +14,7 @@ const SERVICES = [
       "Vi opsætter og optimerer annoncer på Meta og Google der skaffer kunder - ikke bare klik og visninger.",
     dark: true,
     emoji: "🎯",
+    href: "/ydelser/paid-ads",
   },
   {
     title: "SEO & GEO",
@@ -28,6 +29,7 @@ const SERVICES = [
       "Vi opsætter og driver din email markedsføring - fra nyhedsbrev til automatiserede flows der sælger mens du sover.",
     dark: false,
     emoji: "📧",
+    href: "/ydelser/email-marketing",
   },
   {
     title: "Hjemmeside",
