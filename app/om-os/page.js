@@ -41,7 +41,7 @@ const CARDS = [
 
 export default function OmOs() {
   return (
-    <div style={{ backgroundColor: "#f5f2ed", color: "#0f1e2e", fontFamily: "var(--font-nunito)" }} className="min-h-screen">
+    <div style={{ backgroundColor: "#f5f2ed", color: "#0f1e2e", fontFamily: "var(--font-manrope)" }} className="min-h-screen">
 
       {/* Top bar */}
       <div style={{ backgroundColor: "#f5f2ed", borderBottom: "1px solid rgba(15,30,46,0.1)" }} className="sticky top-0 z-50">
@@ -119,7 +119,7 @@ export default function OmOs() {
                 key={s.value}
                 style={{ backgroundColor: "rgba(255,255,255,0.06)", borderRadius: "14px", padding: "24px 20px" }}
               >
-                <p style={{ color: "#c8f04a", fontWeight: 800, fontSize: "2.25rem", lineHeight: 1, marginBottom: "0.6rem" }}>
+                <p style={{ color: "#00c9a7", fontWeight: 800, fontSize: "2.25rem", lineHeight: 1, marginBottom: "0.6rem" }}>
                   {s.value}
                 </p>
                 <p style={{ color: "#ffffff", opacity: 0.7, fontSize: "0.85rem", lineHeight: 1.5 }}>
@@ -171,7 +171,7 @@ export default function OmOs() {
           <a
             href="/analyse"
             style={{
-              backgroundColor: "#c8f04a",
+              backgroundColor: "#00c9a7",
               color: "#0f1e2e",
               borderRadius: "100px",
               fontWeight: 700,

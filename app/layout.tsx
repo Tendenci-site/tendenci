@@ -1,12 +1,12 @@
 import type { Metadata } from "next";
-import { Nunito } from "next/font/google";
+import { Manrope } from "next/font/google";
 import "./globals.css";
 import CookieBanner from "./components/CookieBanner";
 
-const nunito = Nunito({
-  variable: "--font-nunito",
+const manrope = Manrope({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800"],
+  weight: ["400", "500", "700", "800"],
+  variable: "--font-manrope",
 });
 
 export const metadata: Metadata = {
@@ -36,9 +36,9 @@ export default function RootLayout({
   return (
     <html
       lang="da"
-      className={`${nunito.variable} h-full antialiased`}
+      className={`${manrope.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
+      <body className={`${manrope.className} min-h-full flex flex-col`}>
         {children}
         <CookieBanner />
       </body>

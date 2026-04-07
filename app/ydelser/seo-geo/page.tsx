@@ -25,12 +25,12 @@ export default function SeoGeoPage() {
 
       {/* ── HERO ── */}
       <section className="bg-[#0f1e2e] text-white px-6 py-24 text-center">
-        <span className="inline-block bg-[#c8f04a] text-[#0f1e2e] text-xs font-semibold px-3 py-1 rounded-full mb-6 uppercase tracking-widest">
+        <span className="inline-block bg-[#00c9a7] text-[#0f1e2e] text-xs font-semibold px-3 py-1 rounded-full mb-6 uppercase tracking-widest">
           Ydelse
         </span>
         <h1 className="text-4xl md:text-5xl font-semibold leading-tight max-w-2xl mx-auto mb-6">
           Dine kunder googler dig ikke længere.{" "}
-          <span className="text-[#c8f04a]">De spørger ChatGPT.</span>
+          <span className="text-[#00c9a7]">De spørger ChatGPT.</span>
         </h1>
         <p className="text-[#8ba3bc] text-lg max-w-xl mx-auto mb-10">
           I 2026 er der to slags virksomheder: dem der bliver fundet - og dem
@@ -38,7 +38,7 @@ export default function SeoGeoPage() {
         </p>
         <Link
           href="/analyse"
-          className="inline-block bg-[#c8f04a] text-[#0f1e2e] font-semibold px-8 py-4 rounded-full hover:opacity-90 transition"
+          className="inline-block bg-[#00c9a7] text-[#0f1e2e] font-semibold px-8 py-4 rounded-full hover:opacity-90 transition"
         >
           Få gratis analyse af din synlighed →
         </Link>
@@ -46,7 +46,7 @@ export default function SeoGeoPage() {
 
       {/* ── HVAD ER SEO OG GEO ── */}
       <section className="px-6 py-20 max-w-4xl mx-auto">
-        <p className="text-sm font-semibold uppercase tracking-widest text-[#c8f04a] mb-4 text-center">
+        <p className="text-sm font-semibold uppercase tracking-widest text-[#00c9a7] mb-4 text-center">
           Forstå forskellen
         </p>
         <h2 className="text-3xl font-semibold text-center mb-14">
@@ -99,7 +99,7 @@ export default function SeoGeoPage() {
               anbefaler din virksomhed.
             </p>
             <div className="bg-[#1a2f47] rounded-xl p-4">
-              <p className="text-xs font-semibold text-[#c8f04a] uppercase tracking-wide mb-2">
+              <p className="text-xs font-semibold text-[#00c9a7] uppercase tracking-wide mb-2">
                 Eksempel
               </p>
               <p className="text-sm text-[#8ba3bc]">
@@ -117,7 +117,7 @@ export default function SeoGeoPage() {
       {/* ── HVORFOR DET HASTER ── */}
       <section className="bg-[#f4f4f2] px-6 py-20">
         <div className="max-w-4xl mx-auto">
-          <p className="text-sm font-semibold uppercase tracking-widest text-[#c8f04a] mb-4 text-center">
+          <p className="text-sm font-semibold uppercase tracking-widest text-[#00c9a7] mb-4 text-center">
             Hvorfor nu
           </p>
           <h2 className="text-3xl font-semibold text-center mb-14">
@@ -127,7 +127,7 @@ export default function SeoGeoPage() {
           <div className="grid md:grid-cols-3 gap-6 mb-14">
             <div className="bg-white rounded-2xl p-6 text-center">
               <div className="text-4xl font-semibold text-[#0f1e2e] mb-2">
-                68<span className="text-[#c8f04a]">%</span>
+                68<span className="text-[#00c9a7]">%</span>
               </div>
               <p className="text-sm text-gray-500 leading-relaxed">
                 af alle online oplevelser starter med en søgemaskine
@@ -135,7 +135,7 @@ export default function SeoGeoPage() {
             </div>
             <div className="bg-white rounded-2xl p-6 text-center">
               <div className="text-4xl font-semibold text-[#0f1e2e] mb-2">
-                49<span className="text-[#c8f04a]">%</span>
+                49<span className="text-[#00c9a7]">%</span>
               </div>
               <p className="text-sm text-gray-500 leading-relaxed">
                 af forbrugere bruger nu AI til at finde virksomheder og
@@ -144,7 +144,7 @@ export default function SeoGeoPage() {
             </div>
             <div className="bg-white rounded-2xl p-6 text-center">
               <div className="text-4xl font-semibold text-[#0f1e2e] mb-2">
-                0<span className="text-[#c8f04a]">%</span>
+                0<span className="text-[#00c9a7]">%</span>
               </div>
               <p className="text-sm text-gray-500 leading-relaxed">
                 af dine konkurrenter har styr på GEO endnu. Det er dit vindue.
@@ -162,7 +162,7 @@ export default function SeoGeoPage() {
             </h3>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <p className="text-[#c8f04a] font-semibold mb-2">SEO</p>
+                <p className="text-[#00c9a7] font-semibold mb-2">SEO</p>
                 <p className="text-[#8ba3bc] text-sm leading-relaxed">
                   SEO tager 3-6 måneder at bygge op. Virksomheder der starter
                   i dag høster kunderne sidst på året. Dem der venter til 2027
@@ -170,7 +170,7 @@ export default function SeoGeoPage() {
                 </p>
               </div>
               <div>
-                <p className="text-[#c8f04a] font-semibold mb-2">GEO</p>
+                <p className="text-[#00c9a7] font-semibold mb-2">GEO</p>
                 <p className="text-[#8ba3bc] text-sm leading-relaxed">
                   GEO er nyt nok til at de fleste ikke kender det. Det betyder
                   at markedet er åbent. Om 12-18 måneder vil alle tale om
@@ -185,7 +185,7 @@ export default function SeoGeoPage() {
 
       {/* ── HVAD VI GØR ── */}
       <section className="px-6 py-20 max-w-4xl mx-auto">
-        <p className="text-sm font-semibold uppercase tracking-widest text-[#c8f04a] mb-4 text-center">
+        <p className="text-sm font-semibold uppercase tracking-widest text-[#00c9a7] mb-4 text-center">
           Sådan hjælper vi
         </p>
         <h2 className="text-3xl font-semibold text-center mb-14">
@@ -217,7 +217,7 @@ export default function SeoGeoPage() {
           ].map((item) => (
             <div
               key={item.title}
-              className="border border-gray-100 rounded-2xl p-6 hover:border-[#c8f04a] transition"
+              className="border border-gray-100 rounded-2xl p-6 hover:border-[#00c9a7] transition"
             >
               <div className="text-2xl mb-3">{item.icon}</div>
               <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
@@ -228,7 +228,7 @@ export default function SeoGeoPage() {
       </section>
 
       {/* ── CTA ── */}
-      <section className="bg-[#c8f04a] px-6 py-20 text-center">
+      <section className="bg-[#00c9a7] px-6 py-20 text-center">
         <h2 className="text-3xl font-semibold text-[#0f1e2e] mb-4">
           Er din virksomhed synlig - på Google og i AI?
         </h2>

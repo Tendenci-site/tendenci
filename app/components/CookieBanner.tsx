@@ -41,7 +41,7 @@ export default function CookieBanner() {
           Vi bruger cookies for at forbedre din oplevelse på vores hjemmeside.{" "}
           <a
             href="/cookiepolitik"
-            style={{ color: "#c8f04a", textDecoration: "underline" }}
+            style={{ color: "#00c9a7", textDecoration: "underline" }}
           >
             Læs mere
           </a>
@@ -65,7 +65,7 @@ export default function CookieBanner() {
           <button
             onClick={accept}
             style={{
-              backgroundColor: "#c8f04a",
+              backgroundColor: "#00c9a7",
               color: "#0f1e2e",
               border: "none",
               borderRadius: "100px",

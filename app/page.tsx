@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import ParticleCanvas from "./components/ParticleCanvas";
 
 const NAV_LINKS = [
   { label: "Ydelser", href: "#ydelser" },
@@ -59,27 +60,15 @@ export default function Home() {
 
       {/* ── HERO ─────────────────────────────────────────────────── */}
       <section
-        style={{
-          backgroundImage: "url('/kaffe.png')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          position: "relative",
-        }}
+        style={{ backgroundColor: "#0f1e2e", position: "relative" }}
         className="pt-24 pb-28"
       >
-        {/* Overlay */}
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            backgroundColor: "rgba(15,30,46,0.6)",
-          }}
-        />
+        <ParticleCanvas />
         <div style={{ position: "relative" }} className="max-w-6xl mx-auto px-6 flex flex-col items-center text-center">
             {/* Badge */}
             <span
               style={{
-                backgroundColor: "#c8f04a",
+                backgroundColor: "#00c9a7",
                 color: "#0f1e2e",
                 borderRadius: "100px",
               }}
@@ -90,7 +79,7 @@ export default function Home() {
 
             <h1
               style={{
-                fontFamily: "var(--font-nunito)",
+                fontFamily: "var(--font-manrope)",
                 color: "#ffffff",
                 lineHeight: 1.1,
               }}
@@ -109,7 +98,7 @@ export default function Home() {
             <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 mb-10">
               {["Paid Ads", "SEO & GEO", "Email Marketing"].map((item) => (
                 <span key={item} style={{ color: "#ffffff" }} className="flex items-center gap-2 text-sm opacity-70">
-                  <span style={{ color: "#c8f04a", fontSize: "1.1rem" }}>●</span>
+                  <span style={{ color: "#00c9a7", fontSize: "1.1rem" }}>●</span>
                   {item}
                 </span>
               ))}
@@ -119,7 +108,7 @@ export default function Home() {
               <a
                 href="/analyse"
                 style={{
-                  backgroundColor: "#c8f04a",
+                  backgroundColor: "#00c9a7",
                   color: "#0f1e2e",
                   borderRadius: "100px",
                 }}
@@ -143,11 +132,11 @@ export default function Home() {
       </section>
 
       {/* ── GRATIS ANALYSE ───────────────────────────────────────── */}
-      <section id="analyse" style={{ backgroundColor: "#e8f7c0" }} className="py-20">
+      <section id="analyse" style={{ backgroundColor: "#00c9a7" }} className="py-20">
         <div className="max-w-6xl mx-auto px-6">
           <div className="max-w-2xl mb-12">
             <h2
-              style={{ fontFamily: "var(--font-nunito)", color: "#0f1e2e" }}
+              style={{ fontFamily: "var(--font-manrope)", color: "#0f1e2e" }}
               className="text-4xl md:text-5xl font-normal mb-5 leading-tight"
             >
               Få en gratis analyse af din virksomheds online tilstedeværelse
@@ -207,7 +196,7 @@ export default function Home() {
                   <svg width="10" height="8" viewBox="0 0 10 8" fill="none">
                     <path
                       d="M1 4L3.5 6.5L9 1"
-                      stroke="#c8f04a"
+                      stroke="#00c9a7"
                       strokeWidth="1.5"
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -216,7 +205,7 @@ export default function Home() {
                 </span>
                 <div>
                   <p
-                    style={{ fontFamily: "var(--font-nunito)", color: "#0f1e2e" }}
+                    style={{ fontFamily: "var(--font-manrope)", color: "#0f1e2e" }}
                     className="font-semibold mb-1"
                   >
                     {item.title}
@@ -249,7 +238,7 @@ export default function Home() {
         className="py-5 text-center text-sm tracking-wide"
       >
         Bruges af virksomheder inden for:{" "}
-        <span style={{ color: "#c8f04a" }} className="font-semibold">
+        <span style={{ color: "#00c9a7" }} className="font-semibold">
           Håndværk · Konsulenter · Detail · Sundhed · Advokat & Revision
         </span>
       </div>
@@ -257,13 +246,13 @@ export default function Home() {
       {/* ── YDELSER ──────────────────────────────────────────────── */}
       <section id="ydelser" className="max-w-6xl mx-auto px-6 py-24">
         <p
-          style={{ color: "#c8f04a", fontFamily: "var(--font-nunito)" }}
+          style={{ color: "#00c9a7", fontFamily: "var(--font-manrope)" }}
           className="text-xs font-semibold tracking-widest uppercase mb-3"
         >
           Hvad vi tilbyder
         </p>
         <h2
-          style={{ fontFamily: "var(--font-nunito)", color: "#0f1e2e" }}
+          style={{ fontFamily: "var(--font-manrope)", color: "#0f1e2e" }}
           className="text-4xl md:text-5xl font-normal mb-14 max-w-lg"
         >
           Vores ydelser
@@ -283,7 +272,7 @@ export default function Home() {
               <span style={{ fontSize: "2rem" }}>{s.emoji}</span>
               <h3
                 style={{
-                  fontFamily: "var(--font-nunito)",
+                  fontFamily: "var(--font-manrope)",
                   fontSize: "1.25rem",
                 }}
                 className="font-normal leading-snug"
@@ -300,7 +289,7 @@ export default function Home() {
                 <a
                   href={s.href}
                   style={{
-                    color: s.dark ? "#c8f04a" : "#0f1e2e",
+                    color: s.dark ? "#00c9a7" : "#0f1e2e",
                     fontSize: "0.8rem",
                     fontWeight: 700,
                     marginTop: "auto",
@@ -320,11 +309,11 @@ export default function Home() {
       {/* ── EMAIL MARKETING ──────────────────────────────────────── */}
       <section id="email-marketing" style={{ backgroundColor: "#ffffff" }} className="py-24">
         <div className="max-w-6xl mx-auto px-6">
-          <p style={{ color: "#c8f04a", fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "0.75rem" }}>
+          <p style={{ color: "#00c9a7", fontSize: "0.75rem", fontWeight: 700, letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: "0.75rem" }}>
             Hvorfor email marketing?
           </p>
           <h2
-            style={{ fontFamily: "var(--font-nunito)", color: "#0f1e2e", fontWeight: 800, fontSize: "2.5rem", lineHeight: 1.15, maxWidth: "600px", marginBottom: "1.25rem" }}
+            style={{ fontFamily: "var(--font-manrope)", color: "#0f1e2e", fontWeight: 800, fontSize: "2.5rem", lineHeight: 1.15, maxWidth: "600px", marginBottom: "1.25rem" }}
           >
             Din indbakke er det mest værdifulde sted du kan være
           </h2>
@@ -342,7 +331,7 @@ export default function Home() {
                 key={fact.value}
                 style={{ backgroundColor: "#0f1e2e", borderRadius: "16px", padding: "28px", display: "flex", flexDirection: "column", gap: "0.75rem" }}
               >
-                <p style={{ color: "#c8f04a", fontWeight: 800, fontSize: "2.5rem", lineHeight: 1 }}>
+                <p style={{ color: "#00c9a7", fontWeight: 800, fontSize: "2.5rem", lineHeight: 1 }}>
                   {fact.value}
                 </p>
                 <p style={{ color: "#ffffff", opacity: 0.65, fontSize: "0.875rem", lineHeight: 1.7, flex: 1 }}>
@@ -407,7 +396,7 @@ export default function Home() {
             </p>
             <a
               href="/analyse"
-              style={{ backgroundColor: "#c8f04a", color: "#0f1e2e", borderRadius: "100px", fontWeight: 700, fontSize: "0.95rem", padding: "14px 32px", textDecoration: "none" }}
+              style={{ backgroundColor: "#00c9a7", color: "#0f1e2e", borderRadius: "100px", fontWeight: 700, fontSize: "0.95rem", padding: "14px 32px", textDecoration: "none" }}
               className="inline-flex items-center hover:opacity-80 transition-opacity"
             >
               Se hvad vi kan gøre for dig →
@@ -443,14 +432,14 @@ export default function Home() {
       >
         <div className="max-w-6xl mx-auto px-6">
           <p
-            style={{ color: "#c8f04a" }}
+            style={{ color: "#00c9a7" }}
             className="text-xs font-semibold tracking-widest uppercase mb-3"
           >
             Sådan arbejder vi
           </p>
           <h2
             style={{
-              fontFamily: "var(--font-nunito)",
+              fontFamily: "var(--font-manrope)",
               color: "#f5f2ed",
             }}
             className="text-4xl md:text-5xl font-normal mb-16 max-w-lg"
@@ -463,8 +452,8 @@ export default function Home() {
               <div key={step.number} className="flex flex-col gap-4">
                 <span
                   style={{
-                    color: "#c8f04a",
-                    fontFamily: "var(--font-nunito)",
+                    color: "#00c9a7",
+                    fontFamily: "var(--font-manrope)",
                     fontSize: "3rem",
                     lineHeight: 1,
                   }}
@@ -472,11 +461,11 @@ export default function Home() {
                   {step.number}
                 </span>
                 <div
-                  style={{ backgroundColor: "#c8f04a", height: 2, width: 40 }}
+                  style={{ backgroundColor: "#00c9a7", height: 2, width: 40 }}
                 />
                 <h3
                   style={{
-                    fontFamily: "var(--font-nunito)",
+                    fontFamily: "var(--font-manrope)",
                     color: "#f5f2ed",
                     fontSize: "1.25rem",
                   }}
@@ -503,7 +492,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 flex flex-col items-center text-center">
           <h2
             style={{
-              fontFamily: "var(--font-nunito)",
+              fontFamily: "var(--font-manrope)",
               color: "#f5f2ed",
               lineHeight: 1.15,
             }}
@@ -520,7 +509,7 @@ export default function Home() {
           <a
             href="/analyse"
             style={{
-              backgroundColor: "#c8f04a",
+              backgroundColor: "#00c9a7",
               color: "#0f1e2e",
               borderRadius: "100px",
             }}
@@ -577,7 +566,7 @@ export default function Home() {
               </p>
               <a
                 href="mailto:hejtendenci@gmail.com"
-                style={{ color: "#c8f04a", fontSize: "0.9rem", fontWeight: 600 }}
+                style={{ color: "#00c9a7", fontSize: "0.9rem", fontWeight: 600 }}
                 className="hover:opacity-80 transition-opacity"
               >
                 hejtendenci@gmail.com

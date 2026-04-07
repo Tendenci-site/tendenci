@@ -13,16 +13,16 @@ export const metadata = {
 };
 
 const CHECK = (dark) => (
-  <span style={{ width: 18, height: 18, borderRadius: "50%", backgroundColor: dark ? "#c8f04a" : "#0f1e2e", flexShrink: 0, display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
+  <span style={{ width: 18, height: 18, borderRadius: "50%", backgroundColor: dark ? "#00c9a7" : "#0f1e2e", flexShrink: 0, display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
     <svg width="10" height="8" viewBox="0 0 10 8" fill="none">
-      <path d="M1 4L3.5 6.5L9 1" stroke={dark ? "#0f1e2e" : "#c8f04a"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M1 4L3.5 6.5L9 1" stroke={dark ? "#0f1e2e" : "#00c9a7"} strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   </span>
 );
 
 export default function Pakker() {
   return (
-    <div style={{ backgroundColor: "#f5f2ed", color: "#0f1e2e", fontFamily: "var(--font-nunito)" }} className="min-h-screen">
+    <div style={{ backgroundColor: "#f5f2ed", color: "#0f1e2e", fontFamily: "var(--font-manrope)" }} className="min-h-screen">
 
       {/* Top bar */}
       <div style={{ backgroundColor: "#f5f2ed", borderBottom: "1px solid rgba(15,30,46,0.1)" }} className="sticky top-0 z-50">
@@ -74,7 +74,7 @@ export default function Pakker() {
 
           {/* Pro */}
           <div style={{ backgroundColor: "#0f1e2e", borderRadius: "16px", padding: "32px", display: "flex", flexDirection: "column", gap: "20px", position: "relative" }}>
-            <span style={{ position: "absolute", top: "20px", right: "20px", backgroundColor: "#c8f04a", color: "#0f1e2e", borderRadius: "100px", fontSize: "0.7rem", fontWeight: 700, padding: "4px 12px", textTransform: "uppercase" }}>
+            <span style={{ position: "absolute", top: "20px", right: "20px", backgroundColor: "#00c9a7", color: "#0f1e2e", borderRadius: "100px", fontSize: "0.7rem", fontWeight: 700, padding: "4px 12px", textTransform: "uppercase" }}>
               Mest populær
             </span>
             <div>
@@ -89,7 +89,7 @@ export default function Pakker() {
                 </li>
               ))}
             </ul>
-            <a href="/analyse" style={{ backgroundColor: "#c8f04a", color: "#0f1e2e", borderRadius: "100px", fontWeight: 700, fontSize: "0.875rem", padding: "12px 24px", textDecoration: "none", textAlign: "center" }} className="hover:opacity-80 transition-opacity">
+            <a href="/analyse" style={{ backgroundColor: "#00c9a7", color: "#0f1e2e", borderRadius: "100px", fontWeight: 700, fontSize: "0.875rem", padding: "12px 24px", textDecoration: "none", textAlign: "center" }} className="hover:opacity-80 transition-opacity">
               Kom i gang →
             </a>
           </div>

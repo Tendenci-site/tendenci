@@ -14,7 +14,7 @@ export const metadata = {
 
 export default function Cookiepolitik() {
   return (
-    <div style={{ backgroundColor: "#f5f2ed", color: "#0f1e2e", fontFamily: "var(--font-nunito)" }} className="min-h-screen">
+    <div style={{ backgroundColor: "#f5f2ed", color: "#0f1e2e", fontFamily: "var(--font-manrope)" }} className="min-h-screen">
 
       {/* Top bar */}
       <div style={{ backgroundColor: "#f5f2ed", borderBottom: "1px solid rgba(15,30,46,0.1)" }} className="sticky top-0 z-50">
@@ -59,7 +59,7 @@ export default function Cookiepolitik() {
 
           <div style={{ backgroundColor: "#ffffff", borderRadius: "12px", border: "1px solid #e5e2dd" }} className="p-6 flex flex-col gap-2">
             <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 4 }}>
-              <span style={{ backgroundColor: "#0f1e2e", color: "#c8f04a", borderRadius: "100px", fontSize: "0.7rem", fontWeight: 700, padding: "3px 10px" }}>Nødvendige</span>
+              <span style={{ backgroundColor: "#0f1e2e", color: "#00c9a7", borderRadius: "100px", fontSize: "0.7rem", fontWeight: 700, padding: "3px 10px" }}>Nødvendige</span>
             </div>
             <p style={{ fontWeight: 700, color: "#0f1e2e" }} className="text-sm">cookie_consent</p>
             <p style={{ color: "#0f1e2e", opacity: 0.65, lineHeight: 1.7 }} className="text-sm">

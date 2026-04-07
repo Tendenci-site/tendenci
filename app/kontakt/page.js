@@ -33,7 +33,7 @@ export default function Kontakt() {
   const [open, setOpen] = useState(null);
 
   return (
-    <div style={{ backgroundColor: "#f5f2ed", color: "#0f1e2e", fontFamily: "var(--font-nunito)" }} className="min-h-screen">
+    <div style={{ backgroundColor: "#f5f2ed", color: "#0f1e2e", fontFamily: "var(--font-manrope)" }} className="min-h-screen">
 
       {/* Top bar */}
       <div style={{ backgroundColor: "#f5f2ed", borderBottom: "1px solid rgba(15,30,46,0.1)" }} className="sticky top-0 z-50">
@@ -75,8 +75,8 @@ export default function Kontakt() {
               style={{ backgroundColor: "#0f1e2e", borderRadius: "50%", width: 48, height: 48, flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center" }}
             >
               <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 1H19V15H1V1Z" stroke="#c8f04a" strokeWidth="1.5" strokeLinejoin="round"/>
-                <path d="M1 1L10 9L19 1" stroke="#c8f04a" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                <path d="M1 1H19V15H1V1Z" stroke="#00c9a7" strokeWidth="1.5" strokeLinejoin="round"/>
+                <path d="M1 1L10 9L19 1" stroke="#00c9a7" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
               </svg>
             </div>
             <div>
@@ -151,7 +151,7 @@ export default function Kontakt() {
                     >
                       <path
                         d="M5 1V9M1 5H9"
-                        stroke={open === i ? "#c8f04a" : "#0f1e2e"}
+                        stroke={open === i ? "#00c9a7" : "#0f1e2e"}
                         strokeWidth="1.5"
                         strokeLinecap="round"
                       />
@@ -175,7 +175,7 @@ export default function Kontakt() {
           <a
             href="/analyse"
             style={{
-              backgroundColor: "#c8f04a",
+              backgroundColor: "#00c9a7",
               color: "#0f1e2e",
               borderRadius: "100px",
               fontWeight: 700,

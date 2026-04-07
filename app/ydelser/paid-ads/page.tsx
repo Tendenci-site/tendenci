@@ -26,19 +26,19 @@ export default function PaidAdsPage() {
       {/* ── HERO ── */}
       <section className="relative bg-[#0f1e2e] px-6 pt-28 pb-32 text-white overflow-hidden">
         {/* Baggrundselement */}
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-[#c8f04a] opacity-5 translate-x-1/2 -translate-y-1/2 pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#c8f04a] opacity-5 -translate-x-1/2 translate-y-1/2 pointer-events-none" />
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-[#00c9a7] opacity-5 translate-x-1/2 -translate-y-1/2 pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-[400px] h-[400px] rounded-full bg-[#00c9a7] opacity-5 -translate-x-1/2 translate-y-1/2 pointer-events-none" />
 
         <div className="relative max-w-5xl mx-auto">
-          <span className="inline-block bg-[#c8f04a] text-[#0f1e2e] text-xs font-bold px-4 py-1.5 rounded-full mb-8 uppercase tracking-widest">
+          <span className="inline-block bg-[#00c9a7] text-[#0f1e2e] text-xs font-bold px-4 py-1.5 rounded-full mb-8 uppercase tracking-widest">
             Paid Ads
           </span>
 
           <h1 className="text-5xl md:text-6xl font-bold leading-[1.1] max-w-3xl mb-8">
             Annoncer der{" "}
             <span className="relative inline-block">
-              <span className="relative z-10 text-[#c8f04a]">skaffer kunder</span>
-              <span className="absolute bottom-1 left-0 w-full h-3 bg-[#c8f04a] opacity-20 rounded" />
+              <span className="relative z-10 text-[#00c9a7]">skaffer kunder</span>
+              <span className="absolute bottom-1 left-0 w-full h-3 bg-[#00c9a7] opacity-20 rounded" />
             </span>
             {" "}- ikke bare klik.
           </h1>
@@ -51,7 +51,7 @@ export default function PaidAdsPage() {
           <div className="flex flex-wrap gap-4">
             <Link
               href="/analyse"
-              className="inline-block bg-[#c8f04a] text-[#0f1e2e] font-bold px-8 py-4 rounded-full hover:scale-105 transition-transform duration-200"
+              className="inline-block bg-[#00c9a7] text-[#0f1e2e] font-bold px-8 py-4 rounded-full hover:scale-105 transition-transform duration-200"
             >
               Få gratis annonce-analyse →
             </Link>
@@ -66,7 +66,7 @@ export default function PaidAdsPage() {
       </section>
 
       {/* ── SOCIALE BEVIS - TAL ── */}
-      <section className="bg-[#c8f04a] px-6 py-16">
+      <section className="bg-[#00c9a7] px-6 py-16">
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
             { num: "3,8×", label: "Gennemsnitligt ROAS på Meta-annoncer for SMV'er" },
@@ -89,7 +89,7 @@ export default function PaidAdsPage() {
       <section className="px-6 py-24 max-w-5xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-xs font-bold uppercase tracking-widest text-[#c8f04a] mb-4">
+            <p className="text-xs font-bold uppercase tracking-widest text-[#00c9a7] mb-4">
               Hvad er paid ads?
             </p>
             <h2 className="text-4xl font-bold mb-6 leading-tight">
@@ -130,7 +130,7 @@ export default function PaidAdsPage() {
       {/* ── PROCESSEN ── */}
       <section className="bg-[#0f1e2e] px-6 py-24 text-white">
         <div className="max-w-5xl mx-auto">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#c8f04a] mb-4 text-center">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#00c9a7] mb-4 text-center">
             Sådan arbejder vi
           </p>
           <h2 className="text-4xl font-bold text-center mb-16">
@@ -161,7 +161,7 @@ export default function PaidAdsPage() {
               },
             ].map((step) => (
               <div key={step.num} className="relative">
-                <div className="text-6xl font-bold text-[#c8f04a] opacity-20 mb-4 leading-none">
+                <div className="text-6xl font-bold text-[#00c9a7] opacity-20 mb-4 leading-none">
                   {step.num}
                 </div>
                 <h3 className="font-semibold text-lg mb-3">{step.title}</h3>
@@ -174,7 +174,7 @@ export default function PaidAdsPage() {
 
       {/* ── HVAD DU FÅR ── */}
       <section className="px-6 py-24 max-w-5xl mx-auto">
-        <p className="text-xs font-bold uppercase tracking-widest text-[#c8f04a] mb-4 text-center">
+        <p className="text-xs font-bold uppercase tracking-widest text-[#00c9a7] mb-4 text-center">
           Det du får
         </p>
         <h2 className="text-4xl font-bold text-center mb-16">
@@ -192,7 +192,7 @@ export default function PaidAdsPage() {
           ].map((item) => (
             <div
               key={item.title}
-              className="border border-gray-100 rounded-2xl p-7 hover:border-[#c8f04a] hover:shadow-lg transition duration-300"
+              className="border border-gray-100 rounded-2xl p-7 hover:border-[#00c9a7] hover:shadow-lg transition duration-300"
             >
               <div className="text-3xl mb-4">{item.icon}</div>
               <h3 className="font-semibold text-lg mb-2">{item.title}</h3>
@@ -205,7 +205,7 @@ export default function PaidAdsPage() {
       {/* ── FAQ ── */}
       <section className="bg-[#f4f4f2] px-6 py-24">
         <div className="max-w-3xl mx-auto">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#c8f04a] mb-4 text-center">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#00c9a7] mb-4 text-center">
             Ofte stillede spørgsmål
           </p>
           <h2 className="text-4xl font-bold text-center mb-14">
@@ -246,12 +246,12 @@ export default function PaidAdsPage() {
       {/* ── CTA ── */}
       <section className="bg-[#0f1e2e] px-6 py-28 text-center text-white relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-[#c8f04a] opacity-5" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-[#00c9a7] opacity-5" />
         </div>
         <div className="relative max-w-2xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             Klar til annoncer der{" "}
-            <span className="text-[#c8f04a]">rent faktisk virker?</span>
+            <span className="text-[#00c9a7]">rent faktisk virker?</span>
           </h2>
           <p className="text-[#8ba3bc] text-lg mb-10 leading-relaxed">
             Vi starter med en gratis analyse af dit annonce-potentiale. Du får
@@ -259,7 +259,7 @@ export default function PaidAdsPage() {
           </p>
           <Link
             href="/analyse"
-            className="inline-block bg-[#c8f04a] text-[#0f1e2e] font-bold px-10 py-5 rounded-full text-lg hover:scale-105 transition-transform duration-200"
+            className="inline-block bg-[#00c9a7] text-[#0f1e2e] font-bold px-10 py-5 rounded-full text-lg hover:scale-105 transition-transform duration-200"
           >
             Få gratis analyse →
           </Link>

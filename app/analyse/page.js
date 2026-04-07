@@ -41,7 +41,7 @@ export default function Analyse() {
   ];
 
   return (
-    <div style={{ backgroundColor: "#f5f2ed", color: "#0f1e2e", fontFamily: "var(--font-nunito)" }} className="min-h-screen">
+    <div style={{ backgroundColor: "#f5f2ed", color: "#0f1e2e", fontFamily: "var(--font-manrope)" }} className="min-h-screen">
 
       {/* Top bar */}
       <div style={{ backgroundColor: "#f5f2ed", borderBottom: "1px solid rgba(15,30,46,0.1)" }} className="sticky top-0 z-50">
@@ -60,7 +60,7 @@ export default function Analyse() {
       <div style={{ backgroundColor: "#0f1e2e" }} className="py-16">
         <div className="max-w-3xl mx-auto px-6 text-center">
           <h1
-            style={{ color: "#ffffff", fontFamily: "var(--font-nunito)", fontSize: "2.75rem", lineHeight: 1.2, fontWeight: 800 }}
+            style={{ color: "#ffffff", fontFamily: "var(--font-manrope)", fontSize: "2.75rem", lineHeight: 1.2, fontWeight: 800 }}
             className="mb-4"
           >
             Fedt at du er klar til at blive fundet af flere kunder!
@@ -78,12 +78,12 @@ export default function Analyse() {
         <div className="flex gap-6">
           <div className="flex flex-col items-center">
             <div
-              style={{ backgroundColor: "#c8f04a", color: "#0f1e2e", borderRadius: "50%", width: 48, height: 48, fontWeight: 800, fontSize: "1rem", flexShrink: 0 }}
+              style={{ backgroundColor: "#00c9a7", color: "#0f1e2e", borderRadius: "50%", width: 48, height: 48, fontWeight: 800, fontSize: "1rem", flexShrink: 0 }}
               className="flex items-center justify-center"
             >
               01
             </div>
-            <div style={{ width: 2, backgroundColor: "#c8f04a", opacity: 0.3, flex: 1, marginTop: 8 }} />
+            <div style={{ width: 2, backgroundColor: "#00c9a7", opacity: 0.3, flex: 1, marginTop: 8 }} />
           </div>
           <div className="flex flex-col gap-5 pb-4 flex-1">
             <h2 style={{ fontWeight: 800, fontSize: "1.4rem", color: "#0f1e2e" }}>
@@ -99,7 +99,7 @@ export default function Analyse() {
                   "Skriv i beskrivelsen hvis du ønsker at blive kontaktet telefonisk",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-2">
-                    <span style={{ color: "#c8f04a", fontWeight: 700 }}>–</span>
+                    <span style={{ color: "#00c9a7", fontWeight: 700 }}>–</span>
                     {item}
                   </li>
                 ))}
@@ -109,7 +109,7 @@ export default function Analyse() {
             {/* Contact form */}
             {sent ? (
               <div
-                style={{ backgroundColor: "#c8f04a", borderRadius: "16px" }}
+                style={{ backgroundColor: "#00c9a7", borderRadius: "16px" }}
                 className="p-6 text-center"
               >
                 <p style={{ color: "#0f1e2e", fontWeight: 700, fontSize: "1.1rem" }}>
@@ -188,12 +188,12 @@ export default function Analyse() {
           <div key={step.number} className="flex gap-6">
             <div className="flex flex-col items-center">
               <div
-                style={{ backgroundColor: "#c8f04a", color: "#0f1e2e", borderRadius: "50%", width: 48, height: 48, fontWeight: 800, fontSize: "1rem", flexShrink: 0 }}
+                style={{ backgroundColor: "#00c9a7", color: "#0f1e2e", borderRadius: "50%", width: 48, height: 48, fontWeight: 800, fontSize: "1rem", flexShrink: 0 }}
                 className="flex items-center justify-center"
               >
                 {step.number}
               </div>
-              {i === 0 && <div style={{ width: 2, backgroundColor: "#c8f04a", opacity: 0.3, flex: 1, marginTop: 8 }} />}
+              {i === 0 && <div style={{ width: 2, backgroundColor: "#00c9a7", opacity: 0.3, flex: 1, marginTop: 8 }} />}
             </div>
             <div className="flex flex-col gap-3 pb-4">
               <h2 style={{ fontWeight: 800, fontSize: "1.4rem", color: "#0f1e2e" }}>

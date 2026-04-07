@@ -25,17 +25,17 @@ export default function HjemmesidePage() {
 
       {/* ── HERO ── */}
       <section className="relative bg-[#0f1e2e] px-6 pt-28 pb-32 text-white overflow-hidden">
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-[#c8f04a] opacity-5 translate-x-1/2 -translate-y-1/2 pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-[300px] h-[300px] rounded-full bg-[#c8f04a] opacity-5 -translate-x-1/2 translate-y-1/2 pointer-events-none" />
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] rounded-full bg-[#00c9a7] opacity-5 translate-x-1/2 -translate-y-1/2 pointer-events-none" />
+        <div className="absolute bottom-0 left-0 w-[300px] h-[300px] rounded-full bg-[#00c9a7] opacity-5 -translate-x-1/2 translate-y-1/2 pointer-events-none" />
 
         <div className="relative max-w-5xl mx-auto">
-          <span className="inline-block bg-[#c8f04a] text-[#0f1e2e] text-xs font-bold px-4 py-1.5 rounded-full mb-8 uppercase tracking-widest">
+          <span className="inline-block bg-[#00c9a7] text-[#0f1e2e] text-xs font-bold px-4 py-1.5 rounded-full mb-8 uppercase tracking-widest">
             Hjemmeside
           </span>
 
           <h1 className="text-5xl md:text-6xl font-bold leading-[1.1] max-w-3xl mb-8">
             Din hjemmeside er din{" "}
-            <span className="text-[#c8f04a]">bedste sælger.</span>
+            <span className="text-[#00c9a7]">bedste sælger.</span>
             <br />Behandl den som én.
           </h1>
 
@@ -47,7 +47,7 @@ export default function HjemmesidePage() {
           <div className="flex flex-wrap gap-4">
             <Link
               href="/analyse"
-              className="inline-block bg-[#c8f04a] text-[#0f1e2e] font-bold px-8 py-4 rounded-full hover:scale-105 transition-transform duration-200"
+              className="inline-block bg-[#00c9a7] text-[#0f1e2e] font-bold px-8 py-4 rounded-full hover:scale-105 transition-transform duration-200"
             >
               Få gratis hjemmeside-analyse →
             </Link>
@@ -62,7 +62,7 @@ export default function HjemmesidePage() {
       </section>
 
       {/* ── TAL ── */}
-      <section className="bg-[#c8f04a] px-6 py-16">
+      <section className="bg-[#00c9a7] px-6 py-16">
         <div className="max-w-5xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
           {[
             { num: "75%", label: "af brugere vurderer en virksomheds troværdighed baseret på hjemmesiden alene" },
@@ -85,7 +85,7 @@ export default function HjemmesidePage() {
       <section className="px-6 py-24 max-w-5xl mx-auto">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <p className="text-xs font-bold uppercase tracking-widest text-[#c8f04a] mb-4">
+            <p className="text-xs font-bold uppercase tracking-widest text-[#00c9a7] mb-4">
               Dit brand. Dit valg.
             </p>
             <h2 className="text-4xl font-bold mb-6 leading-tight">
@@ -134,7 +134,7 @@ export default function HjemmesidePage() {
       {/* ── HVORFOR NEXT.JS ── */}
       <section className="bg-[#0f1e2e] px-6 py-24 text-white">
         <div className="max-w-5xl mx-auto">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#c8f04a] mb-4 text-center">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#00c9a7] mb-4 text-center">
             Teknologi
           </p>
           <h2 className="text-4xl font-bold text-center mb-6">
@@ -193,7 +193,7 @@ export default function HjemmesidePage() {
 
       {/* ── PROCESSEN ── */}
       <section className="px-6 py-24 max-w-5xl mx-auto">
-        <p className="text-xs font-bold uppercase tracking-widest text-[#c8f04a] mb-4 text-center">
+        <p className="text-xs font-bold uppercase tracking-widest text-[#00c9a7] mb-4 text-center">
           Processen
         </p>
         <h2 className="text-4xl font-bold text-center mb-16">
@@ -211,7 +211,7 @@ export default function HjemmesidePage() {
               { num: "05", title: "Launch", desc: "Vi sætter siden live, sætter domæne op og sikrer at alt virker." },
             ].map((step) => (
               <div key={step.num} className="relative">
-                <div className="w-16 h-16 rounded-full bg-[#c8f04a] flex items-center justify-center font-bold text-[#0f1e2e] text-base mb-5 relative z-10">
+                <div className="w-16 h-16 rounded-full bg-[#00c9a7] flex items-center justify-center font-bold text-[#0f1e2e] text-base mb-5 relative z-10">
                   {step.num}
                 </div>
                 <h3 className="font-semibold text-lg mb-2">{step.title}</h3>
@@ -225,7 +225,7 @@ export default function HjemmesidePage() {
       {/* ── HVAD DU FÅR ── */}
       <section className="bg-[#f4f4f2] px-6 py-24">
         <div className="max-w-5xl mx-auto">
-          <p className="text-xs font-bold uppercase tracking-widest text-[#c8f04a] mb-4 text-center">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#00c9a7] mb-4 text-center">
             Hvad er inkluderet
           </p>
           <h2 className="text-4xl font-bold text-center mb-16">
@@ -259,7 +259,7 @@ export default function HjemmesidePage() {
 
       {/* ── FAQ ── */}
       <section className="px-6 py-24 max-w-3xl mx-auto">
-        <p className="text-xs font-bold uppercase tracking-widest text-[#c8f04a] mb-4 text-center">
+        <p className="text-xs font-bold uppercase tracking-widest text-[#00c9a7] mb-4 text-center">
           Ofte stillede spørgsmål
         </p>
         <h2 className="text-4xl font-bold text-center mb-14">
@@ -303,12 +303,12 @@ export default function HjemmesidePage() {
       {/* ── CTA ── */}
       <section className="bg-[#0f1e2e] px-6 py-28 text-center text-white relative overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-[#c8f04a] opacity-5" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] rounded-full bg-[#00c9a7] opacity-5" />
         </div>
         <div className="relative max-w-2xl mx-auto">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
             Klar til en hjemmeside der{" "}
-            <span className="text-[#c8f04a]">arbejder for dig?</span>
+            <span className="text-[#00c9a7]">arbejder for dig?</span>
           </h2>
           <p className="text-[#8ba3bc] text-lg mb-10 leading-relaxed">
             Vi starter med en gratis gennemgang af din nuværende hjemmeside
@@ -316,7 +316,7 @@ export default function HjemmesidePage() {
           </p>
           <Link
             href="/analyse"
-            className="inline-block bg-[#c8f04a] text-[#0f1e2e] font-bold px-10 py-5 rounded-full text-lg hover:scale-105 transition-transform duration-200"
+            className="inline-block bg-[#00c9a7] text-[#0f1e2e] font-bold px-10 py-5 rounded-full text-lg hover:scale-105 transition-transform duration-200"
           >
             Få gratis hjemmeside-analyse →
           </Link>
