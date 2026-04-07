@@ -1,191 +1,150 @@
+import Image from "next/image";
+import Link from "next/link";
+
 export const metadata = {
   title: "Om os | Tendenci",
   description:
-    "Lær Tendenci at kende. Vi kombinerer erhvervsøkonomisk uddannelse fra CBS med praktisk erfaring på sociale medier – og holder os altid opdateret på hvad der virker.",
+    "Lær Tendenci at kende. Vi kombinerer erhvervsøkonomisk uddannelse fra CBS med praktisk erfaring inden for paid ads, SEO og email marketing.",
   openGraph: {
-    title: "Om os – Tendenci",
-    description:
-      "Lær Tendenci at kende. Vi kombinerer akademisk forståelse for forretning med praktisk erfaring på sociale medier.",
+    title: "Om os | Tendenci",
+    description: "Lær Tendenci at kende.",
     url: "https://tendenci.dk/om-os",
     siteName: "Tendenci",
-    images: [{ url: "/Pizza.png", width: 1200, height: 630, alt: "Tendenci – Om os" }],
     locale: "da_DK",
     type: "website",
   },
 };
 
-const STATS = [
-  { value: "68%", label: "af alle online oplevelser starter med en søgning" },
-  { value: "49%", label: "af forbrugere bruger AI til at finde virksomheder" },
-  { value: "3,5 mia.", label: "Google-søgninger foretages hver eneste dag" },
-  { value: "0%", label: "af dine konkurrenter har styr på GEO endnu" },
-];
-
-const CARDS = [
-  {
-    emoji: "🎓",
-    title: "Forretningsforståelse",
-    body: "Vi studerer erhvervsøkonomi og virksomhedskommunikation på CBS. Det betyder at vores arbejde ikke kun er kreativt – det er forankret i en forståelse for hvad der skaber reel forretningsværdi.",
-  },
-  {
-    emoji: "📱",
-    title: "Praktisk erfaring",
-    body: "Vi arbejder aktivt med sociale medier og ved hvad der virker i praksis. Vi har erfaring med hvordan de mest relevante platforme fungerer, og hvordan man driver en profil der skaber resultater.",
-  },
-  {
-    emoji: "🔍",
-    title: "Altid opdateret",
-    body: "Sociale medier ændrer sig konstant. Vi holder os løbende opdateret på algoritmer, trends og nye platforme – så din virksomhed altid er et skridt foran.",
-  },
-];
-
-export default function OmOs() {
+export default function OmOsPage() {
   return (
-    <div style={{ backgroundColor: "#f5f2ed", color: "#0f1e2e", fontFamily: "var(--font-manrope)" }} className="min-h-screen">
+    <main className="bg-white text-[#0f1e2e]">
 
-      {/* Top bar */}
-      <div style={{ backgroundColor: "#f5f2ed", borderBottom: "1px solid rgba(15,30,46,0.1)" }} className="sticky top-0 z-50">
-        <div className="max-w-5xl mx-auto px-6 h-16 flex items-center">
-          <a
-            href="/"
-            style={{ color: "#0f1e2e", borderRadius: "100px", border: "2px solid rgba(15,30,46,0.2)" }}
-            className="inline-flex items-center gap-2 px-4 py-2 text-sm font-semibold hover:opacity-70 transition-opacity"
-          >
-            ← Tilbage til forsiden
-          </a>
-        </div>
-      </div>
-
-      {/* 1. HERO */}
-      <section style={{ backgroundColor: "#0f1e2e" }} className="py-24">
-        <div className="max-w-5xl mx-auto px-6">
-          <h1
-            style={{ color: "#ffffff", fontWeight: 800, fontSize: "3.5rem", lineHeight: 1.1 }}
-            className="mb-5"
-          >
-            Vi er Tendenci
-          </h1>
-          <p style={{ color: "#ffffff", opacity: 0.55, fontSize: "1.2rem" }}>
-            Driven by trends. Built for businesses that want to grow.
-          </p>
-        </div>
+      {/* ── HERO ── */}
+      <section className="bg-[#0f1e2e] px-6 py-24 text-center text-white">
+        <span className="inline-block bg-[#00c9a7] text-[#0f1e2e] text-xs font-bold px-4 py-1.5 rounded-full mb-6 uppercase tracking-widest">
+          Om os
+        </span>
+        <h1 className="text-4xl md:text-5xl font-bold max-w-2xl mx-auto leading-tight">
+          Vi er til for virksomheder der fortjener at blive fundet.
+        </h1>
       </section>
 
-      {/* 2. VISION */}
-      <section style={{ backgroundColor: "#f5f2ed" }} className="py-20">
-        <div className="max-w-5xl mx-auto px-6">
-          <h2 style={{ fontWeight: 800, fontSize: "2rem", color: "#0f1e2e", marginBottom: "1.5rem" }}>
-            Derfor eksisterer vi
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-stretch">
-            {/* Tekst */}
-            <div style={{ display: "flex", flexDirection: "column", gap: "1.25rem" }}>
-              <p style={{ color: "#0f1e2e", opacity: 0.75, lineHeight: 1.85, fontSize: "1rem" }}>
-                Du kender måske følelsen. Du støder ind i den bedste pizza du nogensinde har fået. Mærkeligt nok er der meget længere kø til den hippe restaurant lige ved siden af – dem du har set få masser af likes på Instagram. Du har prøvet den pizza, og den var faktisk ikke særlig god.
+      {/* ── VILLADS ── */}
+      <section className="px-6 py-24 max-w-5xl mx-auto">
+        <div className="grid md:grid-cols-2 gap-16 items-center">
+
+          {/* Billede */}
+          <div className="relative">
+            <div className="absolute -top-4 -left-4 w-full h-full rounded-2xl bg-[#00c9a7] opacity-10" />
+            <Image
+              src="/villads.png"
+              alt="Villads Fischer - Grundlægger af Tendenci"
+              width={560}
+              height={640}
+              className="relative rounded-2xl w-full object-cover shadow-xl"
+              priority
+            />
+            {/* Badge */}
+            <div className="absolute -bottom-5 -right-5 bg-[#0f1e2e] text-white rounded-2xl px-5 py-4 shadow-xl border border-[#00c9a7]/20">
+              <div className="text-xs text-[#00c9a7] font-bold uppercase tracking-widest mb-1">Grundlægger</div>
+              <div className="font-bold text-lg">Villads Fischer</div>
+              <div className="text-xs text-[#8ba3bc] mt-0.5">CBS · Tendenci</div>
+            </div>
+          </div>
+
+          {/* Tekst */}
+          <div>
+            <p className="text-xs font-bold uppercase tracking-widest text-[#00c9a7] mb-6">
+              Mennesket bag Tendenci
+            </p>
+
+            <div className="space-y-5 text-gray-500 leading-relaxed text-[15px]">
+              <p>
+                Jeg startede Tendenci fordi jeg brænder for det kommercielle.
+                Hvad får folk til at købe? Hvad skaber reel vækst? Og hvad er
+                bare støj? Det er de spørgsmål jeg ikke kan lade være med at stille.
               </p>
-              <p style={{ color: "#0f1e2e", opacity: 0.75, lineHeight: 1.85, fontSize: "1rem" }}>
-                Nu står du her med den bedste pizza i byen, og tænker: Hvorfor har jeg aldrig hørt om dette sted?
+              <p>
+                Jeg har altid haft et naturligt drive til at tage ejerskab over
+                projekter - forme dem, sætte retningen og se dem gå fra idé til
+                virkelighed. Det giver mig en enorm tilfredsstillelse, og det er
+                præcis den energi jeg bringer med ind i hvert samarbejde med Tendenci.
               </p>
-              <p style={{ color: "#0f1e2e", opacity: 0.75, lineHeight: 1.85, fontSize: "1rem" }}>
-                Det er præcis dét vi er til for. Uanset om du er pizzamanden, kaffebiksen, tømrerfirmaet eller noget helt fjerde – og du ved at du har styr på dit produkt – så er vi den brik du mangler i puslespillet. Vi sørger for at de rigtige mennesker finder dig.
+              <p>
+                Til daglig studerer jeg på CBS, hvor jeg bygger en solid forståelse
+                for hvad der rent faktisk skaber forretningsværdi. Det kombinerer
+                jeg med praktisk erfaring fra erhvervslivet - og det giver mig et
+                fundament jeg er stolt af: jeg forstår ikke bare marketing, jeg
+                forstår forretning.
+              </p>
+              <p className="text-[#0f1e2e] font-medium">
+                Tendenci er mit projekt. Jeg tager det seriøst - og jeg glæder
+                mig til at høre om din virksomhed.
               </p>
             </div>
 
-            {/* Billede */}
-            <div style={{ borderRadius: "16px", overflow: "hidden", boxShadow: "0 8px 32px rgba(15,30,46,0.12)", minHeight: "300px" }} className="order-first md:order-last">
-              <img
-                src="/Pizza.png"
-                alt="Pizza"
-                style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
-              />
+            <div className="mt-10 flex flex-wrap gap-4">
+              <Link
+                href="/analyse"
+                className="inline-block bg-[#00c9a7] text-[#0f1e2e] font-bold px-7 py-3.5 rounded-full hover:scale-105 transition-transform duration-200"
+              >
+                Få gratis analyse →
+              </Link>
+              <Link
+                href="/kontakt"
+                className="inline-block border border-gray-200 text-[#0f1e2e] font-medium px-7 py-3.5 rounded-full hover:border-[#00c9a7] transition"
+              >
+                Kontakt mig
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* 3. STATISTIK */}
-      <section style={{ backgroundColor: "#0f1e2e" }} className="py-20">
-        <div className="max-w-5xl mx-auto px-6">
-          <h2 style={{ color: "#ffffff", fontWeight: 800, fontSize: "2rem", marginBottom: "0.75rem" }}>
-            Derfor er digital synlighed ikke til at ignorere
+      {/* ── HVORFOR TENDENCI ── */}
+      <section className="bg-[#f4f4f2] px-6 py-20">
+        <div className="max-w-5xl mx-auto">
+          <p className="text-xs font-bold uppercase tracking-widest text-[#00c9a7] mb-4 text-center">
+            Vores tilgang
+          </p>
+          <h2 className="text-3xl font-bold text-center mb-14">
+            Vi tror på marketing der kan mærkes på bundlinjen
           </h2>
-          <p style={{ color: "#ffffff", opacity: 0.5, marginBottom: "3rem", fontSize: "1rem" }}>
-            Tallene taler for sig selv
-          </p>
-
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
-            {STATS.map((s) => (
-              <div
-                key={s.value}
-                style={{ backgroundColor: "rgba(255,255,255,0.06)", borderRadius: "14px", padding: "24px 20px" }}
-              >
-                <p style={{ color: "#00c9a7", fontWeight: 800, fontSize: "2.25rem", lineHeight: 1, marginBottom: "0.6rem" }}>
-                  {s.value}
-                </p>
-                <p style={{ color: "#ffffff", opacity: 0.7, fontSize: "0.85rem", lineHeight: 1.5 }}>
-                  {s.label}
-                </p>
-              </div>
-            ))}
-          </div>
-
-          <p style={{ color: "#ffffff", opacity: 0.3, fontSize: "0.75rem", marginTop: "1.75rem" }}>
-            Kilder: BrightEdge Research (68%), Salesforce State of the Connected Customer 2024 (49%), Internet Live Stats (3,5 mia.)
-          </p>
-        </div>
-      </section>
-
-      {/* 4. HVEM ER VI */}
-      <section style={{ backgroundColor: "#f5f2ed" }} className="py-20">
-        <div className="max-w-5xl mx-auto px-6">
-          <h2 style={{ fontWeight: 800, fontSize: "2rem", color: "#0f1e2e", marginBottom: "0.75rem" }}>
-            Menneskerne bag Tendenci
-          </h2>
-          <p style={{ color: "#0f1e2e", opacity: 0.65, fontSize: "1rem", marginBottom: "2.5rem", maxWidth: "600px", lineHeight: 1.7 }}>
-            Vi kombinerer akademisk forståelse for forretning med praktisk erfaring på sociale medier – og holder os altid opdateret på hvad der virker lige nu.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {CARDS.map((card) => (
-              <div
-                key={card.title}
-                style={{ backgroundColor: "#ffffff", borderRadius: "16px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}
-              >
-                <span style={{ fontSize: "2rem" }}>{card.emoji}</span>
-                <h3 style={{ fontWeight: 700, fontSize: "1.1rem", color: "#0f1e2e" }}>{card.title}</h3>
-                <p style={{ color: "#0f1e2e", opacity: 0.65, fontSize: "0.875rem", lineHeight: 1.75 }}>{card.body}</p>
+          <div className="grid md:grid-cols-3 gap-6">
+            {[
+              { icon: "🎯", title: "Resultater frem for aktivitet", desc: "Vi måler ikke succes i opslag eller klik. Vi måler i henvendelser, salg og kunder." },
+              { icon: "🤝", title: "Én partner til det hele", desc: "Ingen koordinering mellem tre bureauer. Vi håndterer paid ads, SEO og email under ét tag." },
+              { icon: "📊", title: "Data driver alt", desc: "Hvert beslutning vi tager er baseret på data - ikke mavefornemmelser eller trends." },
+            ].map((item) => (
+              <div key={item.title} className="bg-white rounded-2xl p-7 border border-gray-100">
+                <div className="text-3xl mb-4">{item.icon}</div>
+                <h3 className="font-bold text-lg mb-2">{item.title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{item.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* 5. CTA */}
-      <section style={{ backgroundColor: "#0f1e2e" }} className="py-20">
-        <div className="max-w-5xl mx-auto px-6 flex flex-col items-center text-center gap-8">
-          <p
-            style={{ color: "#ffffff", fontWeight: 800, fontSize: "2rem", lineHeight: 1.3, maxWidth: "560px" }}
-          >
-            "Vi tror på at sociale medier skal skabe kunder – ikke bare likes."
-          </p>
-          <a
-            href="/analyse"
-            style={{
-              backgroundColor: "#00c9a7",
-              color: "#0f1e2e",
-              borderRadius: "100px",
-              fontWeight: 700,
-              fontSize: "1rem",
-              padding: "16px 36px",
-              textDecoration: "none",
-            }}
-            className="inline-flex items-center hover:opacity-80 transition-opacity"
-          >
-            Få din gratis analyse →
-          </a>
-        </div>
+      {/* ── CTA ── */}
+      <section className="bg-[#0f1e2e] px-6 py-24 text-center text-white">
+        <h2 className="text-3xl md:text-4xl font-bold mb-5">
+          Klar til at komme i gang?
+        </h2>
+        <p className="text-[#8ba3bc] mb-8 max-w-lg mx-auto">
+          Lad os tage en uforpligtende snak om din virksomhed og hvad der skal til for at skaffe dig flere kunder.
+        </p>
+        <Link
+          href="/analyse"
+          className="inline-block bg-[#00c9a7] text-[#0f1e2e] font-bold px-8 py-4 rounded-full hover:scale-105 transition-transform duration-200"
+        >
+          Få gratis analyse →
+        </Link>
+        <p className="text-[#8ba3bc] text-sm mt-4">
+          Ingen binding · Ingen skjulte gebyrer · Svar inden for 24 timer
+        </p>
       </section>
 
-    </div>
+    </main>
   );
 }
