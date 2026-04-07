@@ -412,7 +412,7 @@ export default function Home() {
             Find den pakke der passer til dig
           </h2>
           <p style={{ color: "#0f1e2e", opacity: 0.6, fontSize: "1rem", lineHeight: 1.7, maxWidth: "520px" }}>
-            Fra social media strategi til komplet digital tilstedeværelse – vi har en løsning til alle virksomheder.
+            Fra paid ads og SEO til email marketing og hjemmeside – vi har en løsning der passer til din virksomhed og dit budget.
           </p>
           <a
             href="/pakker"

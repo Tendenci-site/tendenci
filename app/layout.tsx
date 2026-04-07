@@ -10,19 +10,19 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Tendenci | Digital Marketing Bureau",
+  title: "Tendenci – Digital marketing der skaber kunder",
   description:
     "Vi hjælper SMV'er med paid ads, SEO og email marketing - det der rent faktisk skaber kunder. Ingen likes uden salg.",
   icons: {
     icon: "/Tendenci Logo (6).png",
   },
   openGraph: {
-    title: "Tendenci – Sociale medier der skaber kunder",
+    title: "Tendenci – Digital marketing der skaber kunder",
     description:
       "Vi hjælper små og mellemstore virksomheder med at gøre sociale medier til et reelt forretningsværktøj. Struktureret, datadrevet og med fokus på resultater.",
     url: "https://tendenci.dk",
     siteName: "Tendenci",
-    images: [{ url: "/kaffe.png", width: 1200, height: 630, alt: "Tendenci – Sociale medier der skaber kunder" }],
+    images: [{ url: "/kaffe.png", width: 1200, height: 630, alt: "Tendenci – Digital marketing der skaber kunder" }],
     locale: "da_DK",
     type: "website",
   },
