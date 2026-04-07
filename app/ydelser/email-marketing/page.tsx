@@ -35,7 +35,6 @@ export default function EmailMarketingPage() {
           <h1 className="text-5xl md:text-6xl font-bold leading-[1.1] max-w-3xl mb-8">
             Den eneste kanal{" "}
             <span className="text-[#00c9a7]">du ejer.</span>
-            <br />Sociale medier låner du den.
           </h1>
 
           <p className="text-[#8ba3bc] text-xl max-w-2xl leading-relaxed mb-12">
