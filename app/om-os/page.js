@@ -37,7 +37,7 @@ export default function OmOsPage() {
           <div className="relative">
             <div className="absolute -top-4 -left-4 w-full h-full rounded-2xl bg-[#00c9a7] opacity-10" />
             <Image
-              src="/villads.png"
+              src="/Villads.jpg"
               alt="Villads Fischer - Grundlægger af Tendenci"
               width={560}
               height={640}
