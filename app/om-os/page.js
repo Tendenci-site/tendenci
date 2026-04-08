@@ -75,7 +75,7 @@ export default function OmOsPage() {
               <p>
                 Jeg startede Tendenci fordi jeg brænder for det kommercielle.
                 Hvad får folk til at købe? Hvad skaber reel vækst? Og hvad er
-                bare støj? ingenting — lad feltet stå tomt              </p>
+                bare støj?               </p>
               <p>
                 Jeg har altid haft et naturligt drive til at tage ejerskab over
                 projekter - forme dem, sætte retningen og se dem gå fra idé til
