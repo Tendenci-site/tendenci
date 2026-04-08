@@ -94,7 +94,7 @@ export default function Analyse() {
               <ul className="flex flex-col gap-1 pl-1">
                 {[
                   "Din virksomheds navn og branche",
-                  "Hvilke sociale medier I er aktive på",
+                  "Hvilke digitale kanaler I allerede bruger",
                   "Hvad I ønsker hjælp til",
                   "Skriv i beskrivelsen hvis du ønsker at blive kontaktet telefonisk",
                 ].map((item) => (
@@ -167,7 +167,7 @@ export default function Analyse() {
                     name="besked"
                     required
                     rows={4}
-                    placeholder="Beskriv gerne hvilke platforme I er på, hvad I har prøvet, og hvad I ønsker at opnå..."
+                    placeholder="Beskriv gerne din virksomhed, hvad I har prøvet før, og hvad I ønsker at opnå..."
                     style={{ border: "1.5px solid #e5e2dd", borderRadius: "10px", padding: "10px 14px", fontSize: "0.9rem", color: "#0f1e2e", outline: "none", resize: "vertical" }}
                   />
                 </div>
