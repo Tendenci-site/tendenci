@@ -547,11 +547,11 @@ export default function Home() {
                 Kontakt
               </p>
               <a
-                href="mailto:hej@tendenci.dk"
+                href="mailto:hejtendenci@gmail.com"
                 style={{ color: "#00c9a7", fontSize: "0.9rem", fontWeight: 600 }}
                 className="hover:opacity-80 transition-opacity"
               >
-                hej@tendenci.dk
+                hejtendenci@gmail.com
               </a>
               <p style={{ color: "#f5f2ed", opacity: 0.45, fontSize: "0.85rem", lineHeight: 1.6 }}>
                 Vi svarer inden for 24 timer på hverdage
