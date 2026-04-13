@@ -48,10 +48,10 @@ export default function Navbar() {
           }}
           className="hidden md:inline-flex items-center px-5 py-2.5 text-sm font-medium hover:opacity-80 transition-opacity"
         >
-          Gratis virksomhedsanalyse
+          Test din virksomhed
         </a>
         <a
-          href="/analyse"
+          href="/tendenci-sundhedscheck.html"
           style={{
             backgroundColor: "#0f1e2e",
             color: "#f5f2ed",
