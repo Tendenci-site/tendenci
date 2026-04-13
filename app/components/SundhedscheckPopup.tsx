@@ -12,7 +12,7 @@ export default function SundhedscheckPopup() {
     // Tjek cookie
     if (document.cookie.includes("tc_popup_seen=1")) return;
 
-    const timer = setTimeout(() => setVisible(true), 30000); // 30 sekunder
+    const timer = setTimeout(() => setVisible(true), 15000); // 15 sekunder
     return () => clearTimeout(timer);
   }, []);
 
