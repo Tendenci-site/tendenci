@@ -39,7 +39,7 @@ export default function Navbar() {
 
         {/* CTA – desktop full size, mobile smaller */}
         <a
-          href="/analyse"
+          href="href="/tendenci-sundhedscheck.html"
           style={{
             backgroundColor: "#0f1e2e",
             color: "#f5f2ed",
