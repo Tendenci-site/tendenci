@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import "./globals.css";
 import CookieBanner from "./components/CookieBanner";
-
+import SundhedscheckPopup from "./components/SundhedscheckPopup";
 const manrope = Manrope({
   subsets: ["latin"],
   weight: ["400", "500", "700", "800"],
@@ -41,6 +41,7 @@ export default function RootLayout({
       <body className={`${manrope.className} min-h-full flex flex-col`}>
         {children}
         <CookieBanner />
+      <SundhedscheckPopup />
       </body>
     </html>
   );
